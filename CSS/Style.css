@@ -1,0 +1,107 @@
+@charset "utf-8";
+/* CSS Document */
+.logo {
+  float: inherit
+}
+.img-100 {
+  width: 100%;
+  height: auto
+}
+.container {
+  width: 80%;
+  margin: 0 auto
+}
+.banner {
+  width: 100%;
+  min-height: 400px
+}
+.menu {
+  width: 25%;
+  float: left
+}
+header {
+  width: 100%;
+  height: 60px;
+  background-color: #DDCECB;
+  border-bottom: darkred 1px solid;
+}
+.menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex
+}
+.menu {
+  padding-top: 18px
+}
+.menu ul li a {
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #474747;
+	
+}
+.menu ul li a:hover {
+  background-color: #FC6C6E;
+  color: #474747;
+	border-radius: 20px
+}
+body {
+  margin: 0 auto
+}
+main{
+	width: 100%;min-height: 600px
+}
+aside{
+	width: 30%;padding: 15px;min-height: 500px
+}
+.content{
+	width: 70%;padding: 15px;min-height: 500px		
+}
+.text-do{
+	color: #F16B6D
+}
+#slider .owl-nav { position:absolute; left:0px; top:40%; width:100%; }
+#slider .owl-nav [class*='owl-'] {
+	font-size:60px; /*background:rgba(255,255,255,.5);border:1px solid #fff; */ color: #fff
+}
+
+#slider .owl-nav .owl-next{ position:absolute; right:5%;}
+#slider .owl-nav .owl-prev{ position:absolute; left:5%;}
+#slider .owl-nav [class*='owl-']:hover {
+      background:none;border: none;
+      color:white;
+      text-decoration: none; }
+#slider .owl-dots{ position:absolute; bottom: 10px; left:45%;}
+#slider .owl-dots .owl-dot span {
+      width: 12px;
+      height: 12px; 	
+}
+#slider .owl-dots .owl-dot span {
+      width: 10px;
+      height: 10px;
+      margin: 5px 7px;
+      background:#F4D5D6;
+      display: block;
+      -webkit-backface-visibility: visible;
+      transition: opacity 200ms ease;
+      border-radius: 30px; }
+ #slider .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+      background:#DDAEAE; }
+.noidung{
+	text-align: center;padding: 10px;
+}
+.noidung a{
+	text-decoration: none;color: #525252;font-size: 18px;font-weight: bold
+}
+footer{
+	width: 100%;min-height: 300px;background-color:#DBD0B8
+}
+.text-den{
+	color: #000000
+}
+.bg-xanh{
+	background-color: aqua;min-height: 300px
+}
+footer ul li{
+	text-align: center;list-style: none;padding: 5px 20px 22px;text-decoration: none
+}
